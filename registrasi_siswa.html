@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Registrasi Siswa</title>
+</head>
+<body style="background-color: #C8D6B9">
+	<form>
+		<h3 style="text-align: center; font-size: 30px;"> Registrasi calon siswa</h3>
+		<table cellpadding="2" width="50%" align="center" cellspacing="2">
+			<tr>
+				<td>Nama</td>
+				<td> : </td>
+				<td><input type="text" name="txtnama" id="txtnama" placeholder="Ketikkan nama anda"></td>
+			</tr>
+			<tr>
+				<td>Tempat lahir</td>
+				<td>:</td>
+				<td><input type="text" name="txttmplhr" id="txttmplhr" placeholder="Ketikkan tempat lahir anda"></td>
+				<td>Tanggal lahir</td>
+				<td>:</td>
+				<td><input type="date" name="txttgllhr" id="txttgllhr"></td>
+			</tr>
+			<tr>
+                <td >Jenis Kelamin</td>
+                <td>:</td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Laki-Laki</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Perempuan</label><br>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Lainnya</label>
+                </td>
+            </tr>
+            <tr>
+            	<td>Agama</td>
+            	<td>:</td>
+            	<td>
+	            	<select name="agama">
+		                <option value="islam">Islam</option>
+		                <option value="kristen">Kristen</option>
+		                <option value="katolik">Katolik</option>
+		                <option value="hindu">Hindu</option>
+		                <option value="budha">Budha</option>
+		            </select>
+            	</td>
+            </tr>
+            <tr>
+                <td >Alamat</td>
+                <td>:</td>
+                <td><textarea name="txtalamat" id="txtalamat" placeholder="Ketikkan alamat anda"></textarea></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>: </td>
+                <td><input type="text" name="txtemail" id="txtemail" placeholder="Ketikkan alamat email"></td>
+            </tr>
+            <tr>
+                <td>No Handphone</td>
+                <td>: </td>
+                <td><input type="text" name="txthp" id="txthp" placeholder="Ketikkan No Handphone"></td>
+            </tr>
+            <tr>
+                <td>Username</td>
+                <td>:</td>
+                <td><input type="text" name="txtusername" id="txtusername" placeholder="Masukan username baru"></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td>:</td>
+                <td> <input type="text" name="txtpassword" id="txtpassword" placeholder="Password"></td>
+            </tr>
+            <br/>
+            <tr>
+            	<td align="center">
+            		<input type="submit" value="Proses">
+            	</td>
+            </tr>
+		</table>
+	</form>
+</body>
+</html>
