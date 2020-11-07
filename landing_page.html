@@ -1,240 +1,119 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>JIHAN TEKNIK SERVICE</title>
-    <style>
-            .barangservice, .harga, .kontak{
-            margin-left: 10px;
-            padding: 0px 38px;
-            text-align:justify;
-            width:75%; 
-            padding-top: 180px;
-            padding-right:200px;
-            }
-            .barang, .harganya{
-            height: 10px;
-            width: 100%;
-            }
-            .logo{
-            float: left;
-            color: #08596A;
-            margin-left: 46px;
-            padding: 0px 38px;
-            font-family: 'Raleway', sans-serif;
-            font-size: 25px;
-            font-weight: bold;
-            }
-            .logo a{
-            text-decoration: none;
-            color: #08596A;
-            background:whitesmoke;
-            }
-            .nav{
-            position: absolute;
-            top: 0;
-            left:  0;
-            margin: 0;
-            padding: 0;
-            height: 80px;
-            width: 100%;
-            }
-            .nav ul{
-            list-style: none;
-            cursor: pointer;
-            float: right;
-            margin-right: 150px;
-            padding: 0 20px;
-            position: relative;
-            }
-            .nav ul li {
-            list-style: none;
-            display: inline-block;
-            color:#08596A;
-            font-family: 'Raleway', sans-serif;
-            padding: 15px 15px;
-            font-weight: 400;
-            }
-            .nav ul li:hover{
-            border-bottom: 3px solid #08596A;
-            transition: all .3s ease;
-            }
-            .logo h1{
-            color: #fff;
-            font-family: 'Fredericka the Great', cursive;
-            }
-            .tagline{
-            background-color: #BAE2DD;
-            width: 1400px;
-            position: absolute;
-            transform: translate(-50%,-50%);
-            text-align: left;
-            top: 25%;
-            left: 50%;
-            }
-            .tagline p{
-            color: #fff;
-            font-family: 'Raleway', sans-serif;
-            font-size: 15px;
-            text-align: center;
-            color:  #08596A;
-            }
-            .down{
-            position: absolute;
-            top: 50%;
-            right: 50%;
-            transform: translate(-50%,-50%);
-            }
-            .down img{
-            width: 90%;
-            }
-            .galery img{
-                border: 4px solid #575D63;
-                margin: 20px;
-                padding: 10px;
-                width: 300px;
-                height: 200px;
-            }
-    </style>
-  </head>
-  <body style="background-color: #D2EACB">
-    <!--TENTANG KAMI-->
-    <div id="tentangkami">
-      <div class="nav">
-        <div class="logo">
-          <a href="#">
-          <p>JIHAN TEKNIK SERVICE</p>
-          </a>
-        </div>
+<html>
+    <head>
+        <title>JIHAN TEKNIK SERVICE</title>
+        <link rel="stylesheet" href="landing_page.css">
+    </head>
+    <body>
+        <header>
+            <div class="main">
+                <ul>
+                  <li><a href="#tentangkami">Tentang Kami</a></li>
+                  <li><a href="#barangservice">Barang yang bisa diservice</a></li>
+                  <li><a href="#harga">Harga</a></li>
+                  <li><a href="#kontak">Kontak kami</a></li>
+                  <li><a href="#login">Login</a></li>
+                  <li><a href="#buatakun">Buat akun</a></li>
+                </ul>
+            </div>
 
-        <ul>
-          <li><a href="#tentangkami">Tentang Kami</a></li>
-          <li><a href="#barangservice">Barang yang bisa diservice</a></li>
-          <li><a href="#harga">Harga</a></li>
-          <li><a href="#kontak">Kontak kami</a></li>
-          <li><a href="#login">Login</a></li>
-          <li><a href="#buatakun">Buat akun</a></li>
-        </ul>
-      </div>
-      <div class="tagline">
-            <br/><p>Jihan teknik service akan membantu anda untuk membetulkan alat elektronik agar bisa terpakai lagi. Dengan harga yang terjanggau alat elektronik anda bisa kembali betul seperti baru lagi. <b>Kepuasan pelanggan adalah kepuasan kami.</b></p>
-      </div>
-    </div>
-    
-    <!--Barang yang diservice-->
-    <div id="barangservice" class="barangservice">
-        <h2>Barang Barang yang bisa diservice</h2>
-        <div class="barang">
-            <table>
-                <tr>
-                    <td>Laptop :</td>
-                    <td><input type="text" name="text" placeholder=" Ketikkan Masalah kerusakan"></td>
-                    <td><input type="text" name="text" placeholder=" Ketikkan typenya"></td>
-                </tr>
-                <tr>
-                    <td>Handphone :</td>
-                    <td><input type="text" name="text" placeholder=" Ketikkan Masalah kerusakan"></td>
-                    <td><input type="text" name="text" placeholder=" Ketikkan typenya"></td>
-                </tr>
-                <tr>
-                    <td>CPU :</td>
-                    <td><input type="text" name="text" placeholder=" Ketikkan Masalah kerusakan"></td>
-                </tr>
-                <tr>
-                    <td>TV :</td>
-                    <td><input type="text" name="text" placeholder=" Ketikkan Masalah kerusakan"></td>
-                    <td><input type="text" name="text" placeholder=" Ketikkan typenya"></td>
-                </tr>
-                <tr>
-                    <td>Dispenser :</td>
-                    <td><input type="text" name="text" placeholder=" Ketikkan Masalah kerusakan"></td>
-                </tr>
-                <tr>
-                    <td>Mesin Cuci :</td>
-                    <td><input type="text" name="text" placeholder=" Ketikkan Masalah kerusakan"></td>
-                </tr>
-            </table>
-        </div>
-    </div>
+            <div class="title">
+                <h1>JIHAN TEKNIK SERVICE</h1>
+            </div>
 
-    <!--harga-->
-    <div id="harga" class="harga">
-        <h2>Harga</h2>
-        <div class="harganya">
-            <table>
-                <tr>
-                    <td>Laptop - jika kerusakannya LCD</td>
-                    <td>:</td>
-                    <td>rp.500.000 - rp.1.000.000</td>
-                </tr>
-                <tr>
-                    <td>Laptop - jika kerusakannya Baterai</td>
-                    <td>:</td>
-                    <td>rp.500.000</td>
-                </tr>
-                <tr>
-                    <td>Handphone - jika kerusakannya LCD</td>
-                    <td>:</td>
-                    <td>rp.200.000 - rp.300.000</td>
-                </tr>
-                <tr>
-                    <td>handphone - jika kerusakannya Baterai</td>
-                    <td>:</td>
-                    <td>rp.200.000</td>
-                </tr>
-                <tr>
-                    <td>CPU - jika kerusakannya motherboard</td>
-                    <td>:</td>
-                    <td>rp.1.000.000</td>
-                </tr>
-                <tr>
-                    <td>Televisi - jika kerusakannya LCD</td>
-                    <td>:</td>
-                    <td>rp.1.000.000 - 2.000.000</td>
-                </tr>
-                <tr>
-                    <td>Televisi - jika kerusakannya Tabung tv (tv tabung)</td>
-                    <td>:</td>
-                    <td>rp.1.000.000</td>
-                </tr>
-                <tr>
-                    <td>Dispenser</td>
-                    <td>:</td>
-                    <td>rp.100.000</td>
-                </tr>
-                <tr>
-                    <td>Mesin cuci - jika kerusakannya harus mengganti mesin</td>
-                    <td>:</td>
-                    <td>rp.500.000</td>
-                </tr>
-            </table>
-        </div>
-    </div>
+            <div class="tagline">
+                <br/><p>Jihan teknik service akan membantu anda untuk membetulkan alat elektronik agar bisa terpakai lagi. Dengan harga yang terjanggau alat elektronik anda bisa kembali betul seperti baru lagi. <b>Kepuasan pelanggan adalah kepuasan kami.</b></p>
+            </div>
+        </header>
 
-    <br><br>
-    <!--Kontak-->
-    <div id="kontak" class="kontak">
-        <h2>Kontak yang bisa dihubungi</h2>
-        <div class="kontaknya">
-            <table>
-                <tr>
-                    <td>HP</td>
-                    <td>:</td>
-                    <td>08123456789</td>
-                </tr>
-                <tr>
-                    <td>Email</td>
-                    <td>:</td>
-                    <td>jihanteknikservice@gmail.com</td>
-                </tr>
-                <tr>
-                    <td>Instagram</td>
-                    <td>:</td>
-                    <td>@jihanteknik_service</td>
-                </tr>
-            </table>
-        </div>
-    </div>
-    <br><br><br>
-  </body>
+            <!--Barang yang diservice-->
+            <div id="barangservice" class="barangservice">
+                <h2>Barang Barang yang bisa diservice</h2>
+                <div class="barang">
+                    <table>
+                        <tr>
+                            <td>Laptop :</td>
+                            <td><input type="text" name="text" placeholder=" Ketikkan Masalah kerusakan"></td>
+                            <td><input type="text" name="text" placeholder=" Ketikkan typenya"></td>
+                        </tr>
+                        <tr>
+                            <td>Handphone :</td>
+                            <td><input type="text" name="text" placeholder=" Ketikkan Masalah kerusakan"></td>
+                            <td><input type="text" name="text" placeholder=" Ketikkan typenya"></td>
+                        </tr>
+                        <tr>
+                            <td>CPU :</td>
+                            <td><input type="text" name="text" placeholder=" Ketikkan Masalah kerusakan"></td>
+                        </tr>
+                        <tr>
+                            <td>TV :</td>
+                            <td><input type="text" name="text" placeholder=" Ketikkan Masalah kerusakan"></td>
+                            <td><input type="text" name="text" placeholder=" Ketikkan typenya"></td>
+                        </tr>
+                        <tr>
+                            <td>Dispenser :</td>
+                            <td><input type="text" name="text" placeholder=" Ketikkan Masalah kerusakan"></td>
+                        </tr>
+                        <tr>
+                            <td>Mesin Cuci :</td>
+                            <td><input type="text" name="text" placeholder=" Ketikkan Masalah kerusakan"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <!--harga-->
+            <div id="harga" class="harga">
+                <h2>Harga</h2>
+                <div class="harganya">
+                    <table>
+                        <tr>
+                            <td>Laptop - jika kerusakannya LCD</td>
+                            <td>:</td>
+                            <td>rp.500.000 - rp.1.000.000</td>
+                        </tr>
+                        <tr>
+                            <td>Laptop - jika kerusakannya Baterai</td>
+                            <td>:</td>
+                            <td>rp.500.000</td>
+                        </tr>
+                        <tr>
+                            <td>Handphone - jika kerusakannya LCD</td>
+                            <td>:</td>
+                            <td>rp.200.000 - rp.300.000</td>
+                        </tr>
+                        <tr>
+                            <td>handphone - jika kerusakannya Baterai</td>
+                            <td>:</td>
+                            <td>rp.200.000</td>
+                        </tr>
+                        <tr>
+                            <td>CPU - jika kerusakannya motherboard</td>
+                            <td>:</td>
+                            <td>rp.1.000.000</td>
+                        </tr>
+                        <tr>
+                            <td>Televisi - jika kerusakannya LCD</td>
+                            <td>:</td>
+                            <td>rp.1.000.000 - 2.000.000</td>
+                        </tr>
+                        <tr>
+                            <td>Televisi - jika kerusakannya Tabung tv (tv tabung)</td>
+                            <td>:</td>
+                            <td>rp.1.000.000</td>
+                        </tr>
+                        <tr>
+                            <td>Dispenser</td>
+                            <td>:</td>
+                            <td>rp.100.000</td>
+                        </tr>
+                        <tr>
+                            <td>Mesin cuci - jika kerusakannya harus mengganti mesin</td>
+                            <td>:</td>
+                            <td>rp.500.000</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+    </body>
 </html>

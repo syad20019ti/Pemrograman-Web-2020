@@ -1,0 +1,62 @@
+body{
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    /* width: 25vw; */
+    margin: auto;
+    vertical-align: middle;
+}
+
+textarea{
+    resize: vertical;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.input-field{
+    margin: 1vh 0;
+}
+
+textarea:focus ~ .floating-label,
+textarea:valid ~ .floating-label{
+    margin-top: 1pt;
+    margin-left: -30rem;
+    font-size: 11px;
+    text-decoration: underline;
+    opacity: 1;
+}
+
+.selector {
+    font-size: 14px;
+    width: 30.5rem;
+    height: 50px;
+    margin-bottom: 5pt;
+}
+
+.select-box > .floating-label{
+    text-decoration: underline;
+    position: absolute;
+    pointer-events: none;
+    margin-left: -30rem;
+    margin-top: 1pt;
+    font-size: 11px;
+    transition: 0.2s ease all;
+}
+
+input:focus ~ .floating-label,
+input:not(:focus):valid ~ .floating-label{
+    margin-top: 1pt;
+    margin-left: -30rem;
+    font-size: 11px;
+    text-decoration: underline;
+    opacity: 1;
+}
